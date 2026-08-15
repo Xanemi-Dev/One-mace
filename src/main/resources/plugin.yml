@@ -1,0 +1,16 @@
+name: One Mace
+main: com.xanemi.onemace.OneMacePlugin
+version: 1.0
+api-version: "1.21"
+description: "Gives and enforces one Mace per player"
+
+commands:
+  givemace:
+    description: Give yourself the One Mace
+    usage: /givemace
+    permission: onemace.give
+
+permissions:
+  onemace.give:
+    description: Allows giving the Mace
+    default: op

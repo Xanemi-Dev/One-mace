@@ -1,0 +1,15 @@
+name: target/
+*.iml
+*.class
+/.idea/
+/.gradle/
+/build/
+/target/
+*.log
+
+# eclipse
+.project
+.classpath
+
+# mac
+.DS_Store
