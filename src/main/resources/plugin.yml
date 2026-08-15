@@ -2,11 +2,11 @@ name: One Mace
 main: com.xanemi.onemace.OneMacePlugin
 version: 1.0
 api-version: "1.21"
-description: "Gives and enforces one Mace per player"
+description: "Only one Mace can be crafted on the server."
 
 commands:
   givemace:
-    description: Give yourself the One Mace
+    description: Give yourself the One Mace (only if none has been crafted)
     usage: /givemace
     permission: onemace.give
 
